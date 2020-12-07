@@ -21,14 +21,27 @@ body{
     height: 100%;
 }
 
+.is-1{
+    font-size: 100px!important;
+}
+
+.is-3{
+    font-size:45px!important;
+}
+
 
 .content{
     text-align: justify;
-    font-size:20px;
+    font-size:25px;
 }
 
-.tag is-warning{
-    font-size: 15px;
+footer{
+    font-size:15px;
+}
+
+
+.tag{
+    font-size: 20px!important;
 }
 
 
