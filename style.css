@@ -8,10 +8,8 @@ body {
 }
 
 .position {
-    display: flex;
     margin-bottom: 30px;
     margin-top: 40px;
-    flex-wrap: wrap;
 }
 
 
