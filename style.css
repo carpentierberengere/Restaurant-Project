@@ -1,0 +1,26 @@
+html {
+    background-color: whitesmoke;
+
+}
+
+body {
+    font-family: 'East Sea Dokdo', cursive;
+}
+
+.position {
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    height: 100%;
+}
+
+
+.content {
+    text-align: justify;
+    font-size: 20px;
+}
