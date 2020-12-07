@@ -1,0 +1,37 @@
+body{
+    height: 100vh;
+    background: url(./images/sushi_pattern.jpg) no-repeat fixed;
+    background: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.columns{
+    justify-content: center;
+}
+
+@font-face {
+    font-family: JapFont;
+    src: url(./font/CHINESETAKEAWAY.ttf);
+}
+
+#titre{
+    padding-top: 2%;
+    font-family: JapFont;
+    text-align: center;
+    font-size: 150px;
+    color: #000036
+}
+
+.card{
+    background-color: transparent;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.media-content{
+    text-align: center;
+}
+
+#titre-accueil{
+    color: black;
+}
