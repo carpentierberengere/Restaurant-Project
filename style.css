@@ -1,48 +1,46 @@
-html{
+
+html {
     background-color: whitesmoke;
-    
+
 }
 
-body{
-    font-family:'East Sea Dokdo', cursive;
+body {
+    font-family: 'East Sea Dokdo', cursive;
 }
 
-.position{
-    
+.position {
+
     margin-bottom: 30px;
     margin-top: 40px;
-    
-    margin-left:auto;
-    margin-right:auto;
+
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
-.card{
+.card {
     height: 100%;
 }
 
-.is-1{
-    font-size: 100px!important;
+.is-1 {
+    font-size: 100px !important;
 }
 
-.is-3{
-    font-size:45px!important;
+.is-3 {
+    font-size: 45px !important;
 }
 
 
-.content{
+.content {
     text-align: justify;
-    font-size:25px;
+    font-size: 25px;
 }
 
-footer{
-    font-size:15px;
-}
-
-
-.tag{
-    font-size: 20px!important;
+footer {
+    font-size: 15px;
 }
 
 
-
+.tag {
+    font-size: 20px !important;
+}
