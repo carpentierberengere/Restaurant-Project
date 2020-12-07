@@ -302,7 +302,7 @@ for (let element of cartes) {
     cardContent.appendChild(footer)
 
     const linkPanier = document.createElement('a')
-    linkPanier.classname = 'card-footer-item fas fa-2x fas fas fa-2x'
+    linkPanier.className = 'card-footer-item fas fa-2x fas fas fa-2x'
     footer.appendChild(linkPanier)
 
     const span = document.createElement('span')
