@@ -14,6 +14,51 @@
 </head>
 
 <body>
+
+
+    <header>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="./index.html">
+                    <h2 class="titreNav">NIGIRI HOUSE</h2>
+                </a>
+
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a href="./index.html" class="navbar-item acceuil">
+                       <strong>Accueil</strong> 
+                    </a>
+                    <a href="./menu.html" class="navbar-item menu">
+                       <strong>Menu</strong> 
+                    </a>
+                    <a class="navbar-item">
+                       <strong>A propos</strong> 
+                    </a>
+
+                </div>
+
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a href="./panier.html" class="button is-primary panier">
+                                <strong>Panier</strong>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
     <section class=" container">
         <div class="carte">
 
@@ -479,9 +524,9 @@
 
 
         </div>
-        
+
     </section>
-    <script src="./menu.js"></script>
+    <script type="module" src="./menu.mjs"></script>
 </body>
 
 </html>
