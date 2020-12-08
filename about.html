@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/sushi.png">
+  <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+  <link rel="stylesheet" href="about.css">
+
+</head>
+
+<body>
+  <section class="container">
+
+    <div class="position">
+
+
+      <h1 class="title is-1">
+        A PROPOS DE NOUS
+      </h1>
+
+      <p class="subtitle is-4">
+
+        Ouvert depuis 2019, notre restaurant prépare avec soin des plats japonais traditionnels, toujours avec notre
+        petite touche Nigiri House!
+        Nous utilisons des produits frais de grande qualité, et offrons des options végétariennes/vegan sur notre carte,
+        ou à la demande lors de la prise de commande.</br>
+        MENU DESORMAIS DISPONIBLE EN TAKEAWAY & DELIVERY (passez commande sur notre site directement!)</br>
+
+        Un soucis ? Une question ? N’hésitez pas à nous contacter via le formulaire ci-dessous
+
+      </p>
+
+
+
+
+    </div>
+
+
+    <div class="myForm">
+      <form action="/" method="post">
+        <fieldset>
+          <label for="name">Nom:</label><br>
+          <input type="text" id="name" name="name" maxlength='20' placeholder="e.g Stevie Wonder" style="width:200px;"><br>
+          <label for="email">Email:</label></br>
+          <input type="text" id="email" name="email" placeholder="e.g stevie@wonder.com" style="width:200px;"></br>
+          <label for="message">Message:</label></br>
+          <input type="text" id="message" name="message" placeholder="write your message" maxlength='500' style="height:100px; width:200px"></br>
+        </fieldset>
+      </form>
+    </div>
+
+    <div class="formButton">
+      <button onclick="toSubmit()" id="submit" class="button" value="SEND">submit</button>
+    </div>
+
+  </section>
+  <script src="./about.js"></script>
+</body>
+
+
+
+</html>
