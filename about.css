@@ -1,0 +1,73 @@
+html {
+    background-color: orange;
+    background-image: url(./images/sushi_pattern.png);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+body {
+    font-family: 'East Sea Dokdo', cursive;
+}
+
+.is-1 {
+    text-align: center;
+    font-size: 100px !important;
+    color: black;
+    margin-top: 50px;
+
+}
+
+.is-4 {
+    text-align: center;
+    margin-top: 20px !important;
+    color: black;
+    background-color: rgba(251, 255, 247, 0.6);
+    font-family: 'Caveat', cursive;
+
+}
+
+.position {
+
+    justify-content: center;
+}
+
+.myForm {
+    background-color: rgba(251, 255, 247, 0.6);
+
+}
+
+form {
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+}
+
+label {
+    font-size: 25px;
+    color: black;
+
+}
+
+input {
+    background-color: lightgrey;
+    border-color: whitesmoke;
+}
+
+.button {
+    color: darkgray;
+    background-color: whitesmoke;
+
+}
+
+.button:hover {
+    color: black;
+    background-color: darkgrey;
+}
+
+.formButton {
+    text-align: center;
+    background-color: rgba(251, 255, 247, 0.6);
+}
+
