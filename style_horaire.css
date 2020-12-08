@@ -1,0 +1,90 @@
+@font-face {
+    font-family: JapFont;
+    src: url(./font/CHINESETAKEAWAY.ttf);
+}
+
+body{
+    height: 100vh;
+    background: url(./images/sushi_pattern.jpg) no-repeat fixed;
+    background: cover;
+
+}
+
+#section_horaire{
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+
+} 
+
+#titre_navbar{
+    font-family: JapFont;
+    font-size: 25px;
+
+}
+
+.jour{
+    display: inline-block;
+    width: fit-content;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    border-left: black dashed 2px;
+    padding-left: 10px;
+}
+
+#titre{
+    color: black;
+    font-weight: bold;
+    border-bottom: dashed black 2px;
+    padding-bottom: 2px;
+}
+
+#days{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 300px;
+    justify-content: space-between;
+}
+p{
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+@media screen and (max-width: 768px) {
+
+    body{
+        background: url(./images/sushi_pattern.jpg) no-repeat;
+        background: cover ;
+    }
+
+    #titre {
+        color: black;
+        font-weight: bold;
+    }
+
+    .jour{
+        color: yellowgreen;
+        font-weight: bolder;
+        border-left: 2px dotted black;
+        padding-left: 2px;
+    }
+
+    #days{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 300px;
+        justify-content: space-between;
+        background-color: transparent;
+
+    }
+
+    p{
+        text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    }
+
+
+
+}

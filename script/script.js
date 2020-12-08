@@ -1,1 +1,0 @@
-les carousels = bulmaCarousel.attach()

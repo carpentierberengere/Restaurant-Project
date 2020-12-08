@@ -35,3 +35,16 @@ body{
 #titre-accueil{
     color: black;
 }
+
+@media screen and (max-width: 768px) {
+
+    body{
+        height: auto;
+        background: url(./images/sushi_pattern.jpg) no-repeat;
+        background: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
