@@ -123,7 +123,7 @@ function creerMenu() {
         tagClass: 'tag is-warning',
         tagContent: 'Price : 15€',
         title: 'Spicy Sushi Burrito',
-        content: 'Burrito style roll, filled with shrimp tempura, bokchoi, grated cucumber and carrots, topped with spicy sauce & japanese mayo. </br> Vegan option available',
+        content: 'Burrito style roll, filled with shrimp tempura, bokchoi, grated cucumber and carrots, topped with spicy sauce & japanese mayo. Vegan option available',
         card: 'Sushi Burrito : 15€'
     }, {
         colonnes: 'colonne3',
@@ -133,7 +133,7 @@ function creerMenu() {
         tagClass: 'tag has-background-grey-light',
         tagContent: 'Price : 25€',
         title: 'Platter for Two',
-        content: 'Assortiments of different rolls; contains salmon california, spicy tuna california, avocado & soy cream cali rolls. </br> Serves up to 2 people.',
+        content: 'Assortiments of different rolls; contains salmon california, spicy tuna california, avocado & soy cream cali rolls. Serves up to 2 people.',
         card: 'Date platter : 25€'
     }, {
         colonnes: 'colonne3',
@@ -143,7 +143,7 @@ function creerMenu() {
         tagClass: 'tag is-warning',
         tagContent: 'Price : 40€',
         title: 'Family&Friends Platter',
-        content: 'Assortiment of different rolls; contains salmon nigiri, tuna nigiri, braised eel nigiri, shrimp nigiri, dragon spicy rolls, vegan cali rolls; served with a side of rice, miso soup and kettle of tea of choice. </br> Serves up to 5 people.',
+        content: 'Assortiment of different rolls; contains salmon nigiri, tuna nigiri, braised eel nigiri, shrimp nigiri, dragon spicy rolls, vegan cali rolls; served with a side of rice, miso soup and kettle of tea of choice. Serves up to 5 people.',
         card: 'Family Platter : 40€'
     }]
 
