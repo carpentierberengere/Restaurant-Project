@@ -1,8 +1,18 @@
-#footer {
-    background-color: #F3F3F3;
-    padding-top: 10px;
-    padding-bottom: 0px;
-    position:fixed;
-    bottom:0;
-    width:100%;
+body{
+    height: 100vh;
+    background: url(./images/sushi_pattern.jpg) no-repeat fixed;
+    background: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.jour{
+    color: black;
+    font-weight: bolder;
+}
+
+#titre{
+    color: black;
+    font-weight: bold;
 }
