@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +10,52 @@
     <link rel="stylesheet" href="./style_horaire.css">
     <title>Horaire d'ouverture</title>
 </head>
+
 <body>
-    <section class="section">
+
+
+    <header>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="./index.html">
+                    <p width="112" height="28">NIGIRI HOUSE</p>
+                </a>
+
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item">
+                        Accueil
+                    </a>
+
+                    <a class="navbar-item">
+                        A propos
+                    </a>
+
+                </div>
+
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a class="button is-primary">
+                                <strong>Panier</strong>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <section class="section" id="section_horaire">
         <div class="container">
 
             <div class="columns">
@@ -18,7 +63,7 @@
                     <h1 class="title is-6" id="titre">HORAIRE D'OUVERTURE</h1>
                 </div>
             </div>
-            
+
             <div class="columns">
                 <div class="column is-2">
 
@@ -27,19 +72,19 @@
                         <p>11:00 - 14:30</p>
                         <p>17:00 - 21:30</p><br>
                     </div>
-                
+
                     <div class="jour">
                         <p>Mardi</p>
                         <p>11:00 - 14:30</p>
                         <p>17:00 - 21:30</p><br>
                     </div>
-                
+
                     <div class="jour">
                         <p>Mercredi</p>
                         <p>11:00 - 14:30</p>
                         <p>17:00 - 21:30</p>
                     </div>
-                
+
                 </div>
 
                 <div class="column is-2">
@@ -78,6 +123,7 @@
             </div>
         </div>
     </section>
-    
+
 </body>
+
 </html>
