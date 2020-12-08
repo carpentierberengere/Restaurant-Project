@@ -7,6 +7,22 @@ body {
     font-family: 'East Sea Dokdo', cursive;
 }
 
+.titreNav {
+    font-size: 2rem;
+}
+
+.navbar-item {
+    font-size: 1.3rem;
+}
+
+.button {
+    font-size: 1.3rem;
+}
+
+.pageActuelle {
+    font-size: 0rem;
+}
+
 .position {
 
     margin-bottom: 30px;

@@ -1,4 +1,8 @@
-let cartePanier = []
+const cartePanier = []
+let pageActuele = document.querySelector(".pageActuelle")
+let pageActuelle = pageActuele.textContent
+
+
 
 function creerMenu() {
     const carte = document.querySelector(".carte")
@@ -304,13 +308,99 @@ function creerMenu() {
         linkPanier.addEventListener('click', () => {
             
             cartePanier.push(element.card)
-            
             console.log(cartePanier)
+            return cartePanier
         })
         
     }
     
 }
+if (pageActuelle == 'menu') {
+    creerMenu();
+}
+console.log(pageActuelle)
 
-export { cartePanier };
-creerMenu();
+    
+    if (pageActuelle == 'panier') {
+    creerPanier()
+}
+
+
+function creerPanier() {
+    console.log(cartePanier)
+    const carte = document.querySelector(".carte")
+
+    const positionTitre = document.createElement('div')
+    positionTitre.className = 'position has-text-centered'
+    carte.appendChild(positionTitre)
+
+    const titre = document.createElement('h1')
+    titre.className = 'title is-1'
+    titre.textContent = 'Panier'
+    positionTitre.appendChild(titre)
+
+    const texteTitre = document.createElement('p')
+    texteTitre.className = 'subtitle is-3'
+    texteTitre.textContent = 'Takeaway & Delivery Available'
+    positionTitre.appendChild(texteTitre)
+
+    
+
+
+
+    for (let element of cartePanier) {
+
+
+        const card = document.createElement('div')
+        card.className = 'card has-background-warning-light'
+        carte.appendChild(card)
+
+        const large = document.createElement('div')
+        large.className = 'large'
+        card.appendChild(large)
+
+        const levelItem = document.createElement('div')
+        levelItem.className = 'level-item has-text-centered card-content is-flex is-horizontal-center'
+        large.appendChild(levelItem)
+
+        const figure = document.createElement('figure')
+        figure.className = 'is-justify-content-center px-7'
+        levelItem.appendChild(figure)
+
+        const image = document.createElement('img')
+        image.src = element.img
+        image.alt = element.alt
+        figure.appendChild(image)
+
+        const cardContent = document.createElement('div')
+        cardContent.className = 'card-content'
+        card.appendChild(cardContent)
+
+        const media = document.createElement('div')
+        media.className = 'media'
+        cardContent.appendChild(media)
+
+        const mediaContent = document.createElement('div')
+        mediaContent.className = 'media-content'
+        cardContent.appendChild(mediaContent)
+
+        const tag = document.createElement('span')
+        tag.className = element.tagClass
+        tag.textContent = element.tagContent
+        mediaContent.appendChild(tag)
+
+        const title = document.createElement('p')
+        title.className = 'title is-4'
+        title.textContent = element.title
+        mediaContent.appendChild(title)
+
+        const content = document.createElement('div')
+        content.className = 'content'
+        cardContent.appendChild(content)
+
+        const description = document.createElement('p')
+        description.textContent = element.content
+        content.appendChild(description)
+
+    }
+}
