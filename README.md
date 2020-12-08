@@ -1,3 +1,4 @@
+
 # Group Project - Restaurant Webpage
 
 This project was made by **Simon Doneux**, **Thomas Bour**, **Ayoube El Yazizi** & **Bérengère Carpentier**(add github links).
@@ -24,3 +25,4 @@ We needed to include a presentation page, a menu page (to look and browse throug
 # What does it look like ? 
 
 (*pics soon to come*)
+
