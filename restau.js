@@ -6,50 +6,50 @@ const horaires = [
     {
         jour: weekday[1],
         hours_Start1: 11,
-        hours_Close1: 15,
-        hours_Start2: 17,
+        hours_Close1: 14,
+        hours_Start2: 18,
         hours_Close2: 22,
     },
     {
         jour: weekday[2],
         hours_Start1: 11,
-        hours_Close1: 15,
-        hours_Start2: 17,
+        hours_Close1: 14,
+        hours_Start2: 18,
         hours_Close2: 22,
     },
     {
         jour: weekday[3],
         hours_Start1: 11,
-        hours_Close1: 15,
-        hours_Start2: 17,
+        hours_Close1: 14,
+        hours_Start2: 18,
         hours_Close2: 22,
     },
     {
         jour: weekday[4],
         hours_Start1: 11,
-        hours_Close1: 15,
-        hours_Start2: 17,
+        hours_Close1: 14,
+        hours_Start2: 18,
         hours_Close2: 22,
     },
     {
         jour: weekday[5],
         hours_Start1: 11,
-        hours_Close1: 15,
-        hours_Start2: 17,
+        hours_Close1: 14,
+        hours_Start2: 18,
         hours_Close2: 22,
     },
     {
         jour: weekday[6],
         hours_Start1: 11,
-        hours_Close1: 15,
-        hours_Start2: 17,
+        hours_Close1: 14,
+        hours_Start2: 18,
         hours_Close2: 22,
     },
     {
         jour: weekday[0],
         hours_Start1: 11,
-        hours_Close1: 15,
-        hours_Start2: 17,
+        hours_Close1: 14,
+        hours_Start2: 18,
         hours_Close2: 22,
     },
 ]
@@ -74,9 +74,9 @@ for (let element of horaires) {
     day.textContent = element.jour
     alljour.appendChild(day)
     const heurematin = document.createElement('p')
-    heurematin.textContent = element.hours_Start1+":00 "+element.hours_Close1+":00"
+    heurematin.textContent = element.hours_Start1+":30 "+element.hours_Close1+":00"
     alljour.appendChild(heurematin)
     const heuresoir = document.createElement('p')
-    heuresoir.textContent = element.hours_Start2+":00 "+element.hours_Close2+":00"
+    heuresoir.textContent = element.hours_Start2+":00 "+element.hours_Close2+":30"
     alljour.appendChild(heuresoir)
 }
