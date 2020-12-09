@@ -20,7 +20,8 @@ body{
     font-family: JapFont;
     text-align: center;
     font-size: 150px;
-    color: #000036
+    color: #000036;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
 
 .card{

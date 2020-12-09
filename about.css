@@ -7,6 +7,18 @@ html {
 
 }
 
+@font-face {
+    font-family: JapFont;
+    src: url(./font/CHINESETAKEAWAY.ttf);
+}
+
+#titre_navbar{
+    font-family: JapFont;
+    font-size: 25px;
+
+}
+
+
 body {
     font-family: 'East Sea Dokdo', cursive;
 }

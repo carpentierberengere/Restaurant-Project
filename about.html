@@ -14,6 +14,39 @@
 </head>
 
 <body>
+  <header>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="./index.html">
+          <p id="titre_navbar">NIGIRI HOUSE</p>
+        </a>
+
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+          data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="./index.html">
+            Accueil
+          </a>
+
+          <a class="navbar-item" href="./horaire.html">
+            Horaire
+          </a>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+
+
   <section class="container">
 
     <div class="position">
@@ -45,11 +78,13 @@
       <form name="myform" action="/" method="post">
         <fieldset>
           <label for="name">Nom:</label><br>
-          <input type="text" id="name" name="name" maxlength='20' placeholder="e.g Stevie Wonder" style="width:200px;"><br>
+          <input type="text" id="name" name="name" maxlength='20' placeholder="e.g Stevie Wonder"
+            style="width:200px;"><br>
           <label for="email">Email:</label></br>
           <input type="text" id="email" name="email" placeholder="e.g stevie@wonder.com" style="width:200px;"></br>
           <label for="message">Message:</label></br>
-          <input type="text" id="message" name="message" placeholder="write your message" maxlength='500' style="height:100px; width:200px"></br>
+          <input type="text" id="message" name="message" placeholder="write your message" maxlength='500'
+            style="height:100px; width:200px"></br>
         </fieldset>
       </form>
     </div>

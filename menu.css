@@ -1,3 +1,7 @@
+@font-face {
+    font-family: JapFont;
+    src: url(./font/CHINESETAKEAWAY.ttf);
+}
 
 html {
     background-color: whitesmoke;
@@ -6,6 +10,17 @@ html {
 
 body {
     font-family: 'East Sea Dokdo', cursive;
+}
+
+.titreNav{
+    font-family: JapFont;
+    font-size: 25px;
+    border-right: solid 2px #363636;
+    padding-right: 5px;
+}
+
+.navbar-item{
+    font-size: 25px;
 }
 
 
