@@ -18,6 +18,10 @@ html {
 
 }
 
+.navbar-item{
+    font-size: 25px;
+}
+
 
 body {
     font-family: 'East Sea Dokdo', cursive;
