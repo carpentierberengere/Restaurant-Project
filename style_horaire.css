@@ -44,6 +44,7 @@ body{
     font-weight: bolder;
     border-left: black dashed 2px;
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 #titre{
@@ -81,6 +82,7 @@ p{
         font-weight: bolder;
         border-left: 2px dotted black;
         padding-left: 2px;
+        padding-right: 2px;
     }
 
     #days{
