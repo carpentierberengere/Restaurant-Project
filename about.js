@@ -17,16 +17,27 @@ function toSubmit() {
         alert("Form was sent successfully");
         return true;
     }
-    if (myform.name.value == "" || myform.name.value == [a-z]){
-        return true;
-    } else {
-        alert ("Name must only contain alphabetical characters");
-        return false;
-    }
-    
-    
+
+
+
 }
 
+function validate() {
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const nameRegEx = /[a-z]/;
+    const emailRegEx = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+    const nameresult = nameRegEx.test(name);
+    const emailresult = emailRegEx.test(email);
+    if (nameresult == false) {
+        alert('Alphabetical characters only');
+        return false;
+    }
+    if (emailresult == false) {
+        alert('Please enter a valid email adress')
+        return false;
+    }
+}
 //regex
 
 //const name = document.getElementById('name');
