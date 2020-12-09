@@ -7,6 +7,7 @@ body{
     height: 100vh;
     background: url(./images/sushi_pattern.jpg) no-repeat fixed;
     background: cover;
+    font-family: 'East Sea Dokdo', cursive;
 
 }
 

@@ -1,6 +1,6 @@
 document.querySelector('.horaire').innerHTML=''
 const horaire = document.querySelector('.horaire');
-let weekday = [ 'Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat' ];
+let weekday = [ 'Dim', 'Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam' ];
 
 const horaires = [
     {

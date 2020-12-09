@@ -9,6 +9,9 @@ html {
 }
 
 body {
+    background-image: url(./images/sushi_pattern.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'East Sea Dokdo', cursive;
 }
 
