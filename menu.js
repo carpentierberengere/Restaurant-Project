@@ -1,6 +1,5 @@
 let cartesPanier = []
-let pageActuele = document.querySelector(".pageActuelle")
-let pageActuelle = pageActuele.textContent
+
 
 let section = document.querySelector('section')
 
@@ -237,10 +236,10 @@ function creerMenu() {
     }
     
 }
-if (pageActuelle == 'menu') {
+
     creerMenu();
-}
-console.log(pageActuelle)
+
+
 let buttonPanier = document.querySelector(".panier")
 buttonPanier.addEventListener('click', () => {
     let modal = document.createElement('div')
