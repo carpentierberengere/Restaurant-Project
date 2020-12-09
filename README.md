@@ -24,8 +24,3 @@ Using what we had learned about DOM, RegEx and other JS codes, we needed to crea
 * CSS 
 * Framework (**BULMA**)
 * [**Instructions**](https://github.com/becodeorg/bxl-hopper-1-25/tree/master/The%20Hill/projects/3.restaurant)
-
-# What does it look like ? 
-
-(*pics soon to come*)
-
