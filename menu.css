@@ -18,8 +18,6 @@ body {
 .titreNav{
     font-family: JapFont;
     font-size: 25px;
-    border-right: solid 2px #363636;
-    padding-right: 5px;
 }
 
 .navbar-item{
