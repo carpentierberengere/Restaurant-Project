@@ -10,6 +10,18 @@ body{
 
 }
 
+.titre_navbar {
+    font-size: 2rem;
+}
+
+.navbar-item {
+    font-size: 1.3rem;
+}
+
+.pageActuelle {
+    font-size: 0rem;
+}
+
 #section_horaire{
 
     display: flex;
