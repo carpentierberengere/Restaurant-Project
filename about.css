@@ -51,8 +51,10 @@ label {
 }
 
 input {
-    background-color: lightgrey;
+    background-color: whitesmoke;
+    border-radius:10px;
     border-color: whitesmoke;
+
 }
 
 .button {
