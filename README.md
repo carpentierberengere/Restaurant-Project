@@ -24,3 +24,5 @@ Using what we had learned about DOM, RegEx and other JS codes, we needed to crea
 * CSS 
 * Framework (**BULMA**)
 * [**Instructions**](https://github.com/becodeorg/bxl-hopper-1-25/tree/master/The%20Hill/projects/3.restaurant)
+
+**P.S. : We tried to do a timer but it didn't work well so we put it in a branch named 'test'.**
